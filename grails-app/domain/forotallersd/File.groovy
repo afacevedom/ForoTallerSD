@@ -2,12 +2,12 @@ package forotallersd
 
 class File {
     String fileType
-    Byte content
-    Double size
+    byte[] content
+    double size
 
     static constraints = {
-        fileType (nullable: false, matches: '^([a-z-]+)/([a-z0-9.-]+)$')
-        content (nullable: false)
-        size (nullable: false, minSize: 0, maxSize: 10*1024*1024)
+        fileType matches: "[a-zA-Z]+/[a-zA-Z]+", nullable: false, blank: false
+        content nullable:false, blank:false
+        size max: 10000000, nullable: false, blank: false
     }
 }

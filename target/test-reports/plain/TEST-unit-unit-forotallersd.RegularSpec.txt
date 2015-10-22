@@ -1,5 +1,5 @@
 Testsuite: forotallersd.RegularSpec
-Tests run: 12, Failures: 8, Errors: 0, Time elapsed: 0,483 sec
+Tests run: 12, Failures: 8, Errors: 0, Time elapsed: 5.029 sec
 ------------- Standard Output ---------------
 --Output from test regular attribute postViews: null, field: null, valid: false --
 --Output from test regular attribute postViews: -1, field: minValue, valid: false --
@@ -29,7 +29,7 @@ Tests run: 12, Failures: 8, Errors: 0, Time elapsed: 0,483 sec
 --Output from test regular attribute starsNumber: 4, field: Value, valid: true --
 ------------- ---------------- ---------------
 
-Testcase: test regular attribute postViews: null, field: null, valid: false  took 0,145 sec
+Testcase: test regular attribute postViews: null, field: null, valid: false  took 4.314 sec
 	FAILED
 Condition not satisfied:
 
@@ -51,7 +51,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - postViews(RegularSpec.groovy:27)
 
-Testcase: test regular attribute postViews: -1, field: minValue, valid: false  took 0,027 sec
+Testcase: test regular attribute postViews: -1, field: minValue, valid: false  took 0.072 sec
 	FAILED
 Condition not satisfied:
 
@@ -73,9 +73,9 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - postViews(RegularSpec.groovy:27)
 
-Testcase: test regular attribute postViews: 0, field: Value, valid: true  took 0,022 sec
-Testcase: test regular attribute postViews: 20, field: Value, valid: true  took 0,026 sec
-Testcase: test regular attribute strikesNumber: null, field: null, valid: false  took 0,025 sec
+Testcase: test regular attribute postViews: 0, field: Value, valid: true  took 0.059 sec
+Testcase: test regular attribute postViews: 20, field: Value, valid: true  took 0.041 sec
+Testcase: test regular attribute strikesNumber: null, field: null, valid: false  took 0.042 sec
 	FAILED
 Condition not satisfied:
 
@@ -97,7 +97,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - strikesNumber(RegularSpec.groovy:44)
 
-Testcase: test regular attribute strikesNumber: -1, field: minValue, valid: false  took 0,026 sec
+Testcase: test regular attribute strikesNumber: -1, field: minValue, valid: false  took 0.041 sec
 	FAILED
 Condition not satisfied:
 
@@ -119,7 +119,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - strikesNumber(RegularSpec.groovy:44)
 
-Testcase: test regular attribute strikesNumber: 4, field: maxValue, valid: false  took 0,029 sec
+Testcase: test regular attribute strikesNumber: 4, field: maxValue, valid: false  took 0.054 sec
 	FAILED
 Condition not satisfied:
 
@@ -141,8 +141,8 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - strikesNumber(RegularSpec.groovy:44)
 
-Testcase: test regular attribute strikesNumber: 2, field: Value, valid: true  took 0,037 sec
-Testcase: test regular attribute starsNumber: null, field: null, valid: false  took 0,038 sec
+Testcase: test regular attribute strikesNumber: 2, field: Value, valid: true  took 0.052 sec
+Testcase: test regular attribute starsNumber: null, field: null, valid: false  took 0.043 sec
 	FAILED
 Condition not satisfied:
 
@@ -164,7 +164,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - starsNumber(RegularSpec.groovy:61)
 
-Testcase: test regular attribute starsNumber: -1, field: minValue, valid: false  took 0,029 sec
+Testcase: test regular attribute starsNumber: -1, field: minValue, valid: false  took 0.04 sec
 	FAILED
 Condition not satisfied:
 
@@ -186,7 +186,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - starsNumber(RegularSpec.groovy:61)
 
-Testcase: test regular attribute starsNumber: 6, field: maxValue, valid: false  took 0,032 sec
+Testcase: test regular attribute starsNumber: 6, field: maxValue, valid: false  took 0.077 sec
 	FAILED
 Condition not satisfied:
 
@@ -208,4 +208,4 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.RegularSpec.Testing Domain Class Regular - starsNumber(RegularSpec.groovy:61)
 
-Testcase: test regular attribute starsNumber: 4, field: Value, valid: true  took 0,023 sec
+Testcase: test regular attribute starsNumber: 4, field: Value, valid: true  took 0.06 sec
