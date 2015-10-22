@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ForoTallerSD.iml" filepath="$PROJECT_DIR$/ForoTallerSD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForoTallerSD-grailsPlugins.iml" filepath="$PROJECT_DIR$/ForoTallerSD-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
