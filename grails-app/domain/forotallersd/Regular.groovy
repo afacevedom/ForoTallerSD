@@ -5,6 +5,8 @@ class Regular extends User{
     Integer strikesNumber
     Integer starsNumber
 
+    static hasMany = [posts:Post]
+
     static constraints = {
         postViews(nullable: false, min: 0)
         strikesNumber (nullable: false, range: 0..3)
