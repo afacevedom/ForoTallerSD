@@ -6,7 +6,8 @@ class Post {
     Date lastUpdate
     Boolean itsAllowed
     
-    static belongsTo = [regular:Regular]
+    static belongsTo = [regular: Regular]
+    static belongstTo = [forum: Forum]
 
     static constraints = {
         topic (nullable: false, minSize: 3, maxSize: 50)
