@@ -1,5 +1,5 @@
 Testsuite: forotallersd.AdminSpec
-Tests run: 8, Failures: 6, Errors: 0, Time elapsed: 0.81 sec
+Tests run: 8, Failures: 6, Errors: 0, Time elapsed: 0.6 sec
 ------------- Standard Output ---------------
 --Output from test admin attribute level: null, field: null, valid: false --
 --Output from test admin attribute level: 0, field: minRange, valid: false --
@@ -21,7 +21,7 @@ Tests run: 8, Failures: 6, Errors: 0, Time elapsed: 0.81 sec
 --Output from test admin attribute rating: 56, field: Range, valid: true --
 ------------- ---------------- ---------------
 
-Testcase: test admin attribute level: null, field: null, valid: false  took 0.264 sec
+Testcase: test admin attribute level: null, field: null, valid: false  took 0.184 sec
 	FAILED
 Condition not satisfied:
 
@@ -43,7 +43,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.AdminSpec.Testing Domain Class Admin - level(AdminSpec.groovy:27)
 
-Testcase: test admin attribute level: 0, field: minRange, valid: false  took 0.053 sec
+Testcase: test admin attribute level: 0, field: minRange, valid: false  took 0.042 sec
 	FAILED
 Condition not satisfied:
 
@@ -65,7 +65,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.AdminSpec.Testing Domain Class Admin - level(AdminSpec.groovy:27)
 
-Testcase: test admin attribute level: 6, field: maxRange, valid: false  took 0.06 sec
+Testcase: test admin attribute level: 6, field: maxRange, valid: false  took 0.041 sec
 	FAILED
 Condition not satisfied:
 
@@ -87,8 +87,8 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.AdminSpec.Testing Domain Class Admin - level(AdminSpec.groovy:27)
 
-Testcase: test admin attribute level: 3, field: Range, valid: true  took 0.1 sec
-Testcase: test admin attribute rating: null, field: null, valid: false  took 0.055 sec
+Testcase: test admin attribute level: 3, field: Range, valid: true  took 0.063 sec
+Testcase: test admin attribute rating: null, field: null, valid: false  took 0.064 sec
 	FAILED
 Condition not satisfied:
 
@@ -110,7 +110,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.AdminSpec.Testing Domain Class Admin - rating(AdminSpec.groovy:44)
 
-Testcase: test admin attribute rating: -1, field: minRange, valid: false  took 0.065 sec
+Testcase: test admin attribute rating: -1, field: minRange, valid: false  took 0.089 sec
 	FAILED
 Condition not satisfied:
 
@@ -132,7 +132,7 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.AdminSpec.Testing Domain Class Admin - rating(AdminSpec.groovy:44)
 
-Testcase: test admin attribute rating: 101, field: maxRange, valid: false  took 0.062 sec
+Testcase: test admin attribute rating: 101, field: maxRange, valid: false  took 0.047 sec
 	FAILED
 Condition not satisfied:
 
@@ -154,4 +154,4 @@ forotallersd.User : (unsaved)
 
 	at forotallersd.AdminSpec.Testing Domain Class Admin - rating(AdminSpec.groovy:44)
 
-Testcase: test admin attribute rating: 56, field: Range, valid: true  took 0.067 sec
+Testcase: test admin attribute rating: 56, field: Range, valid: true  took 0.043 sec

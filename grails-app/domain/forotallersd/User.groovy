@@ -14,4 +14,8 @@ class User {
         username (blank: false, nullable: false, unique: true)
         password (blank: false, nullable: false, password: true, minSize: 8, matches: '^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).+$')
     }
+
+    static mapping = {
+        tablePerHierarchy true
+    }
 }
