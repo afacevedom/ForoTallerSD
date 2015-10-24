@@ -12,4 +12,8 @@ class Forum {
         dateCreated (nullable: false, min: new Date())
         category (nullable: false, minSize: 3, maxSize: 15)
     }
+
+    static mapping = {
+        autoTimestamp true
+    }
 }
