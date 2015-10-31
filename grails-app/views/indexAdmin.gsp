@@ -5,7 +5,7 @@
    <body>
         <ul>
 	<% admin.each { adm ->
-           print "<li>"+adm.firstname + "  " + adm.lastname+" "+adm.level+" "+adm.rating+"</li>"
+           print "<li>"+adm.name + "  " + adm.lastname+" "+adm.level+" "+adm.rating+"</li>"
         }
         %>
         </ul>
