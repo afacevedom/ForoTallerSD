@@ -4,7 +4,7 @@
    <body>
         <ul>
 	<% post.each { ps ->
-           print "<li>"+ps.topic + "  " + ps.dateCreate+" "+ps.lastUpdate+"</li>"
+           print "<li>"+ps.topic + "  " + ps.dateCreated+" "+ps.lastUpdate+"</li>"
         }
         %>
         </ul>
